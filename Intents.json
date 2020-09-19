@@ -1,0 +1,53 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep  3 00:02:45 2020
+
+@author: asus
+"""
+
+{"intents":
+  [
+    {
+     "tag": "greeting", 
+     "patterns":["Hi","How are you","Is Anyone There?","Hello","Goodbye","Whats Up"],
+     "responses":["Hello!","Good To See You Again!","Hi There, How Can I Help?"],
+     "context_set":""
+    },
+    {
+     "tag": "goodbye",
+     "patterns":["Cya","See You Later","Goodbye","I Am Leaving","Have A Good Day"],
+     "responses":["Sad To See You Go :(","Talk To You Later","Goodbye!"],
+     "context_set":""
+    },
+     {
+     "tag": "age",
+     "patterns":["How Old","How Old Is You","What Is Your Age","How Old Are You","Age?"],
+     "responses":["I Am 25 Years old","18 Years Young","I am kids"],
+     "context_set":""
+     },
+     {
+     "tag": "name",
+     "patterns":["What Is Your Name","What Should I Call You","Whats Your Name?"],
+     "responses":["I'm Wisti","You Can Call Me Wisti"],
+     "context_set":""
+     },
+     {
+     "tag": "shop",
+     "patterns":["Id Like To Buy Something","Whats On The Menu","What Do You Recommend","Could I Get Something"],
+     "responses":["We Sell Chocolate Chips Cookies For $2","Cookies Are On The Menu!"],
+     "context_set":""
+     },
+     {
+     "tag": "hours",
+     "patterns":["When Are You Guys Open","What Are Your Hours","Hours Of Operation"],
+     "responses":["We Are Open 7am-4am Monday-Friday!"],
+     "context_set":""
+     },
+     {
+     "tag": "buy",
+     "patterns":["Can I Buy Something","How Much Is A Cookies"],
+     "responses":["Yes Cookies Are $2"],
+     "context_set":""
+     }
+  ]
+}
